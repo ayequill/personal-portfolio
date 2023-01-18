@@ -71,7 +71,7 @@ export default function Qualification() {
     </div>
   ));
 
-  console.log(expData);
+
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>

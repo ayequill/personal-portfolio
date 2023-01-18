@@ -7,13 +7,13 @@ export default function Home () {
         <div className="home__container container grid">
           <div className="home__content grid">
             <div className="home__social">
-              <a href="https://www.linkedin.com/in/nicholas-siaw-8824a6175/" target="_blank" className="home__social-icon">
+              <a href="https://www.linkedin.com/in/nicholas-siaw-8824a6175/" rel='noreferrer' target="_blank" className="home__social-icon">
                 <i className="uil uil-linkedin-alt"></i>
               </a>
-              <a href="#" target="_blank" className="home__social-icon">
-                <i className="uil uil-dribbble"></i>
+              <a href="https://www.twitter.com/ayequill" target="_blank" rel='noreferrer' className="home__social-icon">
+                <i className="uil uil-twitter-alt"></i>
               </a>
-              <a href="#" target="_blank" className="home__social-icon">
+              <a href="http://github.com/ayequill" target="_blank" rel='noreferrer' className="home__social-icon">
                 <i className="uil uil-github-alt"></i>
               </a>
             </div>
