@@ -4,7 +4,9 @@ import About from './components/About'
 import Qualification from './components/Qualification'
 import Skills from './components/Skills'
 import Services from './components/Services'
+import Portfolio from './components/Portfolio'
 import './styles/App.scss'
+import 'swiper/css';
 
 
 
@@ -19,6 +21,7 @@ function App() {
       <Skills />
       <Qualification />
       <Services />
+      <Portfolio />
       
     </div>
   )
