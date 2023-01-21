@@ -77,6 +77,22 @@
         color: $first-color;
     }
 }
+
+.nav__btns{
+    display: flex;
+    align-items: center;
+}
+
+.change-theme{
+    font-size: 1.25rem;
+    color: $first-color;
+    margin-right: $mb-1;
+    cursor: pointer;
+    &:hover{
+        color: $first-color;
+    }
+}
+
 // show menu
 .show-menu{
     bottom: 0;

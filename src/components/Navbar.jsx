@@ -61,6 +61,8 @@ export default function Navbar (){
           </div>
   
           <div className="nav__btns">
+            {/* Theme change btn */}
+            <i className="uil uil-moon chnage-theme" id="theme-button"></i>
             <div className="nav__toggle" id="nav-toggle" onClick={handleClick}>
               <i className="uil uil-apps"></i>
             </div>
