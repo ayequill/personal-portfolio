@@ -33,3 +33,10 @@
     }
 
 }
+.button--white{
+    background: #fff;
+    color: $first-color;
+    &:hover{
+        background: #fff;
+    }
+}

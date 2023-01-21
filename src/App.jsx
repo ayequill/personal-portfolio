@@ -5,6 +5,7 @@ import Qualification from './components/Qualification'
 import Skills from './components/Skills'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
+import ProjectInMind from './components/ProjectInMind'
 import './styles/App.scss'
 import 'swiper/css';
 
@@ -22,6 +23,7 @@ function App() {
       <Qualification />
       <Services />
       <Portfolio />
+      <ProjectInMind />
       
     </div>
   )
