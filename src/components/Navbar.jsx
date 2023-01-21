@@ -21,7 +21,7 @@ export default function Navbar (){
           <div className={`nav__menu ${showNav ? 'show-menu': ''}`} id="nav-menu">
             <ul className="nav__list grid">
               <li className="nav__item">
-                <a href="#home" className="nav__link">
+                <a href="#home" className="nav__link active-link">
                   <i className="uil uil-estate nav__icon"></i> Home
                 </a>
               </li>
