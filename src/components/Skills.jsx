@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {skillsData} from "../skillData";
+import { skillsData } from "../skillData";
 
 export default function Skills() {
   const [skill, setSkill] = useState(skillsData);

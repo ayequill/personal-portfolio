@@ -11,15 +11,12 @@ import Footer from "./components/Footer";
 import activeLink from "./hooks/activeLink";
 import themeChanger from "./hooks/themeChanger";
 import "./styles/App.scss";
-import "./styles/index.css"
 import "swiper/css";
 import { useEffect } from "react";
 
 function App() {
-
-useEffect(()=>activeLink,[])
-useEffect(()=> themeChanger)
-  
+  useEffect(() => activeLink, []);
+  useEffect(() => themeChanger);
 
   return (
     <div className="App">

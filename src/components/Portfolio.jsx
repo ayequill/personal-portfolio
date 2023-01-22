@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
-import moviewWatch from '../assets/desktop-home.png'
+import moviewWatch from "../assets/desktop-home.png";
 // import required modules
 import {
   Autoplay,
@@ -49,11 +49,7 @@ export default function Portfolio() {
         >
           {/* <!--==================== PORTFOLIO 1 ====================--> */}
           <SwiperSlide className="portfolio__content grid">
-            <img
-              src={moviewWatch}
-              alt=""
-              className="portfolio__img"
-            />
+            <img src={moviewWatch} alt="" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">Movie Watchlist</h3>
               <p className="portfolio__description">

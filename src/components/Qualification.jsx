@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {expData} from "../expData";
+import { expData } from "../expData";
 
 export default function Qualification() {
   const [showQualification, setShowQualification] = useState(true);
@@ -8,7 +8,7 @@ export default function Qualification() {
   function handleClick(event) {
     setShowQualification(!showQualification);
     // eslint-disable-next-line no-unused-expressions
-    !isActive
+    !isActive;
   }
 
   const eduElements = expData.education.map((element) => (
@@ -70,7 +70,6 @@ export default function Qualification() {
       </div>
     </div>
   ));
-
 
   return (
     <section className="qualification section">

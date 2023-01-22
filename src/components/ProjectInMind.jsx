@@ -3,7 +3,7 @@ import project from "../assets/14.png";
 import projectTextAnimate from "../hooks/projectTextAnimate";
 
 export default function ProjectInMind() {
-  useEffect(()=> projectTextAnimate, [])
+  useEffect(() => projectTextAnimate, []);
 
   const gotWork = (
     <h1 class="ml11">
@@ -16,14 +16,12 @@ export default function ProjectInMind() {
     </h1>
   );
 
-
   return (
     <>
       <section className="project">
         <div className="project__bg">
           <div className="project__container container grid">
             <div className="project__data">
-              {/* TODO Use anime moving letters to display text */}
               {gotWork}
               <p className="project__description">
                 Connect me now and get a 30% discount on your new project.

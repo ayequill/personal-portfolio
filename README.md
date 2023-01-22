@@ -1,7 +1,51 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Portfolio Website
 
+My Personal Portfolio website built with React.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/ayequill/personal-portfolio.git
+```
+
+Go to the project directory
+
+```bash
+  cd personal-portfolio
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Responsive 
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  netlify deploy
+```
+## Be sure to have netlify cli installed globally.
 ## Available Scripts
 
 In the project directory, you can run:

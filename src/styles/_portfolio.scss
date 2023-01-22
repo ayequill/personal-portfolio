@@ -1,64 +1,65 @@
-@import 'variables';
+@import "variables";
 
-.portfolio__container{
-    overflow: initial;
+.portfolio__container {
+  overflow: initial;
 }
 
-.portfolio__content{
-    padding: 0 1.5rem;
-
+.portfolio__content {
+  padding: 0 1.5rem;
 }
 
-.portfolio__img{
-    width: 265px;
-    border-radius: .5rem;
-    justify-self: center;
-    box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: .40);
+.portfolio__img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
 }
 
-.portfolio__title{
-    font-size: $h3-font-size;
-    margin-bottom: $mb-0-5;
+.portfolio__title {
+  font-size: $h3-font-size;
+  margin-bottom: $mb-0-5;
 }
 
-.portfolio__description{
-    margin-bottom: $mb-0-75;
+.portfolio__description {
+  margin-bottom: $mb-0-75;
 }
-.button__icon{
-    transform: translateX(.25rem);
+.button__icon {
+  transform: translateX(0.25rem);
 }
-.portfolio__button{
-
-    &:hover{
-        transform: translateX(.25rem);
-    }
+.portfolio__button {
+  &:hover {
+    transform: translateX(0.25rem);
+  }
 }
-.swiper-button-next::after,.swiper-button-prev::after{
-    content: '';
-}
-
-.swiper-button-next, .swiper-button-prev{
-    font-size: 2rem;
-    color: $first-color;
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
 }
 
-.swiper-button-next{
-    right: -.5rem
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 2rem;
+  color: $first-color;
 }
 
-.swiper-button-prev{
-    left: -.5rem
+.swiper-button-next {
+  right: -0.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets{
-    bottom: -3rem;
+.swiper-button-prev {
+  left: -0.5rem;
 }
 
-.swiper-pagination-bullet-active{
-    background-color: $first-color;
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -3rem;
 }
 
-.swiper-button-prev,.swiper-button-next,
-.swiper-pagination-bullet{
-    outline: none;
+.swiper-pagination-bullet-active {
+  background-color: $first-color;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet {
+  outline: none;
 }
