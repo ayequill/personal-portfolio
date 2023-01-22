@@ -1,10 +1,12 @@
+@import 'variables';
+
 .header{
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     z-index:$z-fixed;
-    background: $body-color;    
+    background-color:$body-color;    
 }
 .nav{
     max-width: 968px;

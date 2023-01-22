@@ -1,12 +1,21 @@
 import { useEffect } from "react";
 import project from "../assets/14.png";
-
+import projectTextAnimate from "../hooks/projectTextAnimate";
 
 export default function ProjectInMind() {
+  useEffect(()=> projectTextAnimate, [])
 
-    useEffect(()=>{
-        
-    })
+  const gotWork = (
+    <h1 class="ml11">
+      <span className="text-wrapper">
+        <span className="line line1"></span>
+        <span className="letters project__title">
+          Got a new project in mind?
+        </span>
+      </span>
+    </h1>
+  );
+
 
   return (
     <>
@@ -15,7 +24,7 @@ export default function ProjectInMind() {
           <div className="project__container container grid">
             <div className="project__data">
               {/* TODO Use anime moving letters to display text */}
-              <h2 className="project__title">Got a new project in mind?</h2>
+              {gotWork}
               <p className="project__description">
                 Connect me now and get a 30% discount on your new project.
               </p>
@@ -25,7 +34,7 @@ export default function ProjectInMind() {
               </a>
             </div>
             <div className="project__img-container">
-            <img src={project} alt="" />
+              <img src={project} alt="" />
             </div>
           </div>
         </div>

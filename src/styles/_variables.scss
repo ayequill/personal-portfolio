@@ -3,10 +3,9 @@ $header-height: 3rem;
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    $hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    $hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
-
 $first-color: hsl($hue-color, 69%, 61%);
 $first-color-second: hsl($hue-color, 69%, 61%);
 $first-color-alt: hsl($hue-color, 57%, 53%);
