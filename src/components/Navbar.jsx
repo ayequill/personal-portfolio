@@ -21,7 +21,7 @@ export default function Navbar() {
     <header className="header" id="header">
       <nav className="nav container">
         <a href="#home" className="nav__logo">
-          Alexa
+          siaw.dev
         </a>
 
         <div

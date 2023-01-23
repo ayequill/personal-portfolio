@@ -6,6 +6,8 @@
   justify-self: center;
   align-self: center;
   // place-self: center;
+  -webkit-box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.37), -5px -5px 12px -2px rgba(0,0,0,0.37); 
+box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.37), -5px -5px 12px -2px rgba(0,0,0,0.37);
 }
 
 .about__description {

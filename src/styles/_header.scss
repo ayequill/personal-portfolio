@@ -9,17 +9,22 @@
   background-color: $body-color;
 }
 .nav {
-  max-width: 968px;
   height: $header-height;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.nav__logo{
+  text-shadow: 1px -2px 2px #00000075, -2px 2px 4px rgba(0,0,0,0.2);
+  font-size: 1.3rem;
+}
+
 .nav__logo,
 .nav__toggle {
   color: $title-color;
   font-weight: $font-medium;
+
 }
 
 .nav__logo:hover {
@@ -59,6 +64,7 @@
   font-size: $small-font-size;
   color: $title-color;
   font-weight: $font-medium;
+
   &:hover {
     color: $first-color;
   }

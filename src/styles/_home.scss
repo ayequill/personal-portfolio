@@ -24,6 +24,7 @@
 .home__blob {
   max-width: 100%;
   fill: $first-color;
+  
 }
 
 .home__blob-img {
@@ -75,7 +76,8 @@
 .ml10 {
   position: relative;
   font-weight: 900;
-  font-size: 1em;
+  font-size: $big-font-size;
+  text-shadow: -1px -1px 1px ;
 }
 
 .ml10 .text-wrapper {

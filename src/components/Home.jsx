@@ -7,7 +7,7 @@ export default function Home() {
   const hi = (
     <h1 className="ml10 home__title">
       <span className="text-wrapper">
-        <span className="letters">Hi, Im Nicholas</span>
+        <span className="letters">Siaw A. Nicholas</span>
       </span>
     </h1>
   );
