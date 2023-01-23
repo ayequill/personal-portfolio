@@ -1,0 +1,45 @@
+$dark-first-color-second: hsl($hue-color, 30%, 8%);
+$dark-title-color: hsl($hue-color, 8%, 95%);
+$dark-text-color: hsl($hue-color, 8%, 75%);
+$dark-input-color: hsl($hue-color, 29%, 16%);
+$dark-body-color: hsl($hue-color, 28%, 12%);
+$dark-container-color: hsl($hue-color, 29%, 16%);
+$dark-scroll-bar-color: hsl($hue-color, 12%, 90%);
+$dark-scroll-thumb-color: hsl($hue-color, 12%, 80%);
+
+
+body.dark-theme{
+background-color: $dark-body-color;
+color: $dark-text-color;
+.header,
+.nav__menu{
+    background: $dark-body-color;
+}
+.nav__logo,
+.nav__toggle,
+.nav__link,
+.home__scroll-name,
+.contact__label,
+h1,
+h2,
+h3,
+h4  {
+  color: $dark-title-color;
+}
+
+.services__content{
+    background: $dark-container-color;
+}
+
+.contact__input{
+    background: $dark-input-color;
+    color: $dark-text-color;
+}
+.contact__content{
+    background: $dark-input-color;
+}
+.footer__bg{
+    background: $dark-first-color-second;
+}
+
+}

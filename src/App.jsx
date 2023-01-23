@@ -16,7 +16,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => activeLink, []);
-  useEffect(() => themeChanger);
+  // useEffect(() => themeChanger);
 
   return (
     <div className="App">

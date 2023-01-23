@@ -87,3 +87,12 @@ img {
 .show-scroll {
   bottom: 5rem;
 }
+::-webkit-scrollbar{
+  width: .60rem;
+  background-color: $scroll-bar-color;
+  border-radius: 5rem;
+}
+::-webkit-scrollbar-thumb{
+  background: $scroll-thumb-color;
+  border-radius: .75rem;
+}

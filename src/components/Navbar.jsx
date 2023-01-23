@@ -1,12 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
-  console.log(showNav);
+  function setDarkTheme() {
+    setDarkMode((prev) => !prev);
+  }
+
+  useEffect(() => {
+    document.body.classList.toggle("dark-theme");
+  }, [darkMode]);
 
   function handleClick() {
     setShowNav((prevState) => !prevState);
+    localStorage.setItem("state", darkMode);
   }
 
   return (
@@ -52,7 +60,7 @@ export default function Navbar() {
             </li>
 
             <li className="nav__item">
-              <a href="#contactme" className="nav__link">
+              <a href="#contact" className="nav__link">
                 <i className="uil uil-message nav__icon"></i>Contactme
               </a>
             </li>
@@ -67,7 +75,11 @@ export default function Navbar() {
 
         <div className="nav__btns">
           {/* Theme change btn */}
-          <i className="uil uil-moon change-theme" id="theme-button"></i>
+          <i
+            onClick={setDarkTheme}
+            className={`uil ${darkMode ? "uil-sun" : "uil-moon"} change-theme`}
+            id="theme-button"
+          ></i>
           <div className="nav__toggle" id="nav-toggle" onClick={handleClick}>
             <i className="uil uil-apps"></i>
           </div>

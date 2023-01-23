@@ -1,11 +1,13 @@
+import avatar from '../assets/me.jpeg'
+
 export default function About() {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About me</h2>
       <span className="section__subtitle">My introduction</span>
 
-      <div className="about_container container grid">
-        <img src="/assets/img/about.jpg" alt="" className="about__img" />
+      <div className="about__container container grid">
+        <img src={avatar} alt="" className="about__img" />
 
         <div className="about_data">
           <p className="about__description">
@@ -15,15 +17,15 @@ export default function About() {
           </p>
           <div className="about__info">
             <div>
-              <span className="about__info-title">08+</span>
+              <span className="about__info-title">1</span>
               <span className="about__info-name">
-                Years <br />
+                Year <br />
                 experience
               </span>
             </div>
 
             <div>
-              <span className="about__info-title">20+</span>
+              <span className="about__info-title">5+</span>
               <span className="about__info-name">
                 Completed <br />
                 project
@@ -31,7 +33,7 @@ export default function About() {
             </div>
 
             <div>
-              <span className="about__info-title">05+</span>
+              <span className="about__info-title">4+</span>
               <span className="about__info-name">
                 Companies <br />
                 worked

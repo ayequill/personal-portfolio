@@ -35,7 +35,9 @@
 .swiper-button-prev::after {
   content: "";
 }
-
+.swiper-slide{
+  margin-bottom: $mb-1;
+}
 .swiper-button-next,
 .swiper-button-prev {
   font-size: 2rem;
@@ -50,8 +52,9 @@
   left: -0.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -3rem;
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: -0.3em;
+
 }
 
 .swiper-pagination-bullet-active {

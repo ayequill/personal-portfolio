@@ -5,6 +5,7 @@ export default function ContactMe() {
       <span className="section__subtitle">Get in touch</span>
 
       <div className="contact__container container grid">
+        <div>
         <div className="contact__information">
           <i className="uil uil-phone contact__icon"></i>
           <div>
@@ -28,6 +29,7 @@ export default function ContactMe() {
             <h3 className="contact__title">Location</h3>
             <span className="contact__subtitle">Ghana - Accra</span>
           </div>
+        </div>
         </div>
         <form action="" className="contact__form grid">
           <div className="contact__inputs grid">

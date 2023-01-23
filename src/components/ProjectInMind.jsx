@@ -6,7 +6,7 @@ export default function ProjectInMind() {
   useEffect(() => projectTextAnimate, []);
 
   const gotWork = (
-    <h1 class="ml11">
+    <h1 className="ml11">
       <span className="text-wrapper">
         <span className="line line1"></span>
         <span className="letters project__title">

@@ -28,7 +28,7 @@ export default function Portfolio() {
             clickable: true,
           }}
           autoplay={{
-            delay: 3000,
+            delay: 10000,
             disableOnInteraction: false,
           }}
           navigation={{

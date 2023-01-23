@@ -81,10 +81,8 @@ export default function Skills() {
       <span className="section__subtitle">My technical levels</span>
 
       <div className="skills__container container grid">
-        <div>
           {/* Skill elements go here */}
           {elements}
-        </div>
       </div>
     </section>
   );

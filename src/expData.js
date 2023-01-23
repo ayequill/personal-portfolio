@@ -11,7 +11,7 @@ export  const expData = {
         id: 2,
 
             title: 'Frontend Developer Career Path',
-            institute: 'DataLink University, Tema',
+            institute: 'Scrimba',
             duration: '2022 - 2023',
             shift: true
         },
@@ -29,7 +29,7 @@ work : [{
 {
     id: 2,
     title: 'Network Technician',
-    institute: 'ComnetSa',
+    institute: 'ComNet SA LTD, Accra',
     duration: '2018 - Present',
     shift: false
 },

@@ -4,6 +4,7 @@ export default function projectTextAnimate() {
   let textWrapper = document.querySelector(".ml11 .letters");
   // eslint-disable-next-line no-control-regex
   textWrapper.innerHTML = textWrapper.textContent.replace(
+    // eslint-disable-next-line no-control-regex
     /([^\x00-\x80]|\w)/g,
     "<span class='letter'>$&</span>"
   );

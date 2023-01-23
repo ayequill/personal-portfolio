@@ -3,7 +3,7 @@
 
 // Larger screen mixin
 @mixin media-lg {
-  @media screen and (min-width: 968px) {
+  @media screen and (min-width: 768px) {
     @content;
   }
 }
@@ -12,3 +12,16 @@
     @content;
   }
 }
+
+@mixin media-xsm {
+  @media screen and (max-width: 350px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (min-width: 568px) {
+    @content;
+  }
+}
+
