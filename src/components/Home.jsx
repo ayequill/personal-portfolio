@@ -89,7 +89,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="home__img">
+          <div className="home__img animate__animated animate__fadeInRight">
             <svg
               className="home__blob"
               id="morphing"
@@ -129,7 +129,7 @@ export default function Home() {
             </svg>
           </div>
 
-          <div className="home__data">
+          <div className="home__data animate__animated animate__fadeInLeft">
             {hi}
             <h3 className="home__subtitle">Frontend Developer</h3>
             <p className="home__description">

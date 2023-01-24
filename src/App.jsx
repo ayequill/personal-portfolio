@@ -10,6 +10,7 @@ import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import activeLink from "./hooks/activeLink";
 import "./styles/App.scss";
+import 'animate.css';
 import { useEffect } from "react";
 
 function App() {

@@ -2,7 +2,7 @@ import avatar from "../assets/me.jpeg";
 
 export default function About() {
   return (
-    <section className="about section" id="about">
+    <section className="about section animate__animated animate__fadeInUp" id="about">
       <h2 className="section__title">About me</h2>
       <span className="section__subtitle">My Introduction</span>
 
