@@ -7,43 +7,40 @@ $dark-container-color: hsl($hue-color, 29%, 16%);
 $dark-scroll-bar-color: hsl($hue-color, 12%, 90%);
 $dark-scroll-thumb-color: hsl($hue-color, 12%, 80%);
 
-
-body.dark-theme{
-background-color: $dark-body-color;
-color: $dark-text-color;
-.header,
-.nav__menu{
+body.dark-theme {
+  background-color: $dark-body-color;
+  color: $dark-text-color;
+  .header,
+  .nav__menu {
     background: $dark-body-color;
-}
-.skill__name{
+  }
+  .skill__name {
     color: $dark-text-color;
+  }
+  .nav__logo,
+  .nav__toggle,
+  .nav__link,
+  .home__scroll-name,
+  .contact__label,
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $dark-title-color;
+  }
 
-}
-.nav__logo,
-.nav__toggle,
-.nav__link,
-.home__scroll-name,
-.contact__label,
-h1,
-h2,
-h3,
-h4  {
-  color: $dark-title-color;
-}
-
-.services__content{
+  .services__content,.portfolio__content {
     background: $dark-container-color;
-}
+  }
 
-.contact__input{
+  .contact__input {
     background: $dark-input-color;
     color: $dark-text-color;
-}
-.contact__content{
+  }
+  .contact__content {
     background: $dark-input-color;
-}
-.footer__bg{
+  }
+  .footer__bg {
     background: $dark-first-color-second;
-}
-
+  }
 }

@@ -9,15 +9,11 @@ import ProjectInMind from "./components/ProjectInMind";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import activeLink from "./hooks/activeLink";
-import themeChanger from "./hooks/themeChanger";
 import "./styles/App.scss";
-import "swiper/css";
 import { useEffect } from "react";
 
 function App() {
   useEffect(() => activeLink, []);
-  // useEffect(() => themeChanger);
-
   return (
     <div className="App">
       <Navbar />
@@ -30,7 +26,7 @@ function App() {
       <ProjectInMind />
       <ContactMe />
       <Footer />
-      <a href="#" className="scrollup" id="scroll-up">
+      <a href="#home" className="scrollup" id="scroll-up">
         <i className="uil uil-arrow-up scrollup__icon"></i>
       </a>
     </div>
