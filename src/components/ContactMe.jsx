@@ -66,7 +66,7 @@ export default function ContactMe() {
           </div>
 
           <div>
-            <a href="#" className="button button button--flex">
+            <a href="#contact" className="button button button--flex">
               Send Message
               <i className="uil uil-message button__icon"></i>
             </a>
