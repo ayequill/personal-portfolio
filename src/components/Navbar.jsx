@@ -4,9 +4,13 @@ export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
 
+  // const styleOffset0 = { stopOpacity: "1", stopColor: "rgb(3, 159, 179)" };
+  // const styleOffset1 = { stopOpacity: "1", stopColor: "rgb(110, 87, 224)" };
+
   function setDarkTheme() {
     setDarkMode((prev) => !prev);
   }
+
 
   useEffect(() => {
     document.body.classList.toggle("dark-theme");

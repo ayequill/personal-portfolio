@@ -33,6 +33,10 @@ body.dark-theme {
     background: $dark-container-color;
   }
 
+.services__modal-content{
+  background-color: $dark-body-color;
+}
+
   .contact__input {
     background: $dark-input-color;
     color: $dark-text-color;
@@ -42,5 +46,9 @@ body.dark-theme {
   }
   .footer__bg {
     background: $dark-first-color-second;
+  }
+  .scroll-header{
+  box-shadow: 0 -1px 8px rgba($first-color, $alpha: 0.40);
+
   }
 }

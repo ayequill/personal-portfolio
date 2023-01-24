@@ -1,9 +1,14 @@
-import moviewWatch from "../assets/projects/movie-desktop-home.png";
-import movieMob from "../assets/projects/movie-screen-home.png";
-import memeMobile from "../assets/projects/meme-mobile.png";
-import memeDesktop from "../assets/projects/meme-desktop.png";
-import cardMobile from "../assets/projects/card-game-mobile.png";
-import cardDesktop from "../assets/projects/card-game-desktop.png";
+import moviewWatch from "../assets/projects/movie-desktop-home.webp";
+import movieMob from "../assets/projects/movie-screen-home.webp";
+import memeMobile from "../assets/projects/meme-mobile.webp";
+import memeDesktop from "../assets/projects/meme-desktop.webp";
+import cardMobile from "../assets/projects/card-game-mobile.webp";
+import cardDesktop from "../assets/projects/card-game-desktop.webp";
+import colorGenDesktop from "../assets/projects/color-gen-desktop.webp";
+import colorGenMobile from "../assets/projects/color-gen-mobile.webp";
+import rpgGameMobile from "../assets/projects/rpg-game-mobile.webp"
+import rpgGameDesktop from "../assets/projects/rpg-game-desktop.webp"
+
 
 export default function Portfolio() {
   return (
@@ -18,12 +23,12 @@ export default function Portfolio() {
             <div className="portfolio__images">
               <img
                 src={moviewWatch}
-                alt=""
+                alt="movie collection site"
                 className="portfolio__img portfolio__desktop"
               />
               <img
                 src={movieMob}
-                alt=""
+                alt="movie collection site"
                 className="portfolio__img portfolio__mobile"
               />
             </div>
@@ -35,7 +40,7 @@ export default function Portfolio() {
               </p>
               <div className="portfolio__buttons">
                 <a
-                  href="#"
+                  href="https://movie-watchlist-beta.vercel.app/"
                   rel="noreferrer"
                   className="button button--flex button--small portfolio__button"
                 >
@@ -43,7 +48,7 @@ export default function Portfolio() {
                   <i className="uil uil-arrow-right button__icon"></i>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/ayequill/meme-generator"
                   rel="noreferrer"
                   className="button button--flex button--small portfolio__button"
                 >
@@ -58,23 +63,23 @@ export default function Portfolio() {
             <div className="portfolio__images ">
               <img
                 src={memeDesktop}
-                alt=""
+                alt="meme generator"
                 className="portfolio__img portfolio__desktop"
               />
               <img
                 src={memeMobile}
-                alt=""
+                alt="meme generator"
                 className="portfolio__img portfolio__mobile"
               />
             </div>
             <div className="portfolio__data">
               <h3 className="portfolio__title">Meme Generator</h3>
               <p className="portfolio__description">
-                A meme template generator built with React and a meme API.
+               A meme generator web app that allows users to add text to randomly generated meme images.
               </p>
               <div className="portfolio__buttons">
                 <a
-                  href="#"
+                  href="https://meme-generator-ayequill.vercel.app/"
                   rel="noreferrer"
                   className="button button--flex button--small portfolio__button"
                 >
@@ -82,7 +87,7 @@ export default function Portfolio() {
                   <i className="uil uil-arrow-right button__icon"></i>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/ayequill/meme-generator"
                   rel="noreferrer"
                   className="button button--flex button--small portfolio__button"
                 >
@@ -97,12 +102,12 @@ export default function Portfolio() {
             <div className="portfolio__images ">
               <img
                 src={cardDesktop}
-                alt=""
+                alt="war of cards game"
                 className="portfolio__img portfolio__desktop"
               />
               <img
                 src={cardMobile}
-                alt=""
+                alt="war of cards game"
                 className="portfolio__img portfolio__mobile"
               />
             </div>
@@ -113,7 +118,7 @@ export default function Portfolio() {
               </p>
               <div className="portfolio__buttons">
                 <a
-                  href="#"
+                  href="http://war-of-cards.vercel.app/"
                   rel="noreferrer"
                   className="button button--flex button--small portfolio__button"
                 >
@@ -121,7 +126,88 @@ export default function Portfolio() {
                   <i className="uil uil-arrow-right button__icon"></i>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/ayequill/war-of-cards"
+                  rel="noreferrer"
+                  className="button button--flex button--small portfolio__button"
+                >
+                  GitHub
+                  <i className="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Portfolio 4 */}
+            <div className="portfolio__content grid">
+            <div className="portfolio__images ">
+              <img
+                src={rpgGameDesktop}
+                alt="an rpg project"
+                className="portfolio__img portfolio__desktop"
+              />
+              <img
+                src={rpgGameMobile}
+                alt="an rpg project"
+                className="portfolio__img portfolio__mobile"
+              />
+            </div>
+            <div className="portfolio__data">
+              <h3 className="portfolio__title">RPG Game</h3>
+              <p className="portfolio__description">
+                A RPG developed using HTML, CSS3 and Vanilla JS
+              </p>
+              <div className="portfolio__buttons">
+                <a
+                  href="https://rpg-game-lyart.vercel.app/"
+                  rel="noreferrer"
+                  className="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i className="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/ayequill/rpg-game"
+                  rel="noreferrer"
+                  className="button button--flex button--small portfolio__button"
+                >
+                  GitHub
+                  <i className="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Portfolio 5 */}
+
+          <div className="portfolio__content grid">
+            <div className="portfolio__images ">
+              <img
+                src={colorGenDesktop}
+                alt="a color generating app"
+                className="portfolio__img portfolio__desktop"
+              />
+              <img
+                src={colorGenMobile}
+                alt="a color generating app"
+                className="portfolio__img portfolio__mobile"
+              />
+            </div>
+            <div className="portfolio__data">
+              <h3 className="portfolio__title">Color Scheme Generator</h3>
+              <p className="portfolio__description">
+                A RPG developed using HTML, CSS3 and Vanilla JS
+              </p>
+              <div className="portfolio__buttons">
+                <a
+                  href="https://ayequill-color-gen.vercel.app/"
+                  rel="noreferrer"
+                  className="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i className="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/ayequill/color-generator"
                   rel="noreferrer"
                   className="button button--flex button--small portfolio__button"
                 >

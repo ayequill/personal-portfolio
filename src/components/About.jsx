@@ -1,17 +1,17 @@
-import avatar from '../assets/me.jpeg'
+import avatar from "../assets/me.jpeg";
 
 export default function About() {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
         <img src={avatar} alt="" className="about__img" />
 
         <div className="about_data">
           <p className="about__description">
-            Web developer, with extensive knowledge and years of experience,
+            Hello my name is Siaw Nicholas, A Web developer with extensive knowledge and years of experience,
             working in web technologies and Ui / Ux design, delivering quality
             work.
           </p>

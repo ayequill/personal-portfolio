@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import project from "../assets/14.png";
-import projectTextAnimate from "../hooks/projectTextAnimate";
+import {projectTextAnimate} from "../hooks/animations";
 
 export default function ProjectInMind() {
   useEffect(() => projectTextAnimate, []);

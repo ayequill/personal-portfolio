@@ -1,7 +1,5 @@
 import { useEffect } from "react";
-import homeImg from "../assets/home.png";
 import anime from "animejs";
-import blobAnime from "../hooks/homeBlobAnimate";
 
 export default function Home() {
   const hi = (
@@ -11,8 +9,6 @@ export default function Home() {
       </span>
     </h1>
   );
-
-  // useEffect(()=> blobAnime)
 
   useEffect(() => {
     anime({
@@ -123,12 +119,12 @@ export default function Home() {
                   fill="url(#grad1)"
                 ></path>
 
-                <image
+                {/* <image
                   className="home__blob-img"
                   x="-120"
                   y="-150"
                   xlinkHref={homeImg}
-                />
+                /> */}
               </g>
             </svg>
           </div>
