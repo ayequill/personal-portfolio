@@ -9,7 +9,7 @@ import ProjectInMind from "./components/ProjectInMind";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import activeLink from "./hooks/activeLink";
-// import "./styles/App.scss";
+import "./styles/App.scss";
 import { useEffect } from "react";
 
 function App() {
