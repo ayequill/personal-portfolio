@@ -1,6 +1,5 @@
 import avatar from "../assets/me.jpeg";
-
-
+import cv from "../assets/docs/cv.pdf"
 
 export default function About() {
   return (
@@ -44,8 +43,8 @@ export default function About() {
 
             <div className="about__buttons">
               <a
-                download=""
-                href="../assets/docs/Nicholas_SiawAkwawua_Resume.pdf"
+                download="Siaw's CV"
+                href={cv}
                 className="button button--flex"
               >
                 Download CV<i className="uil uil-download-alt button__icon"></i>
