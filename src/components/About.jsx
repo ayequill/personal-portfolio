@@ -1,5 +1,7 @@
 import avatar from "../assets/me.jpeg";
 
+
+
 export default function About() {
   return (
     <section className="about section animate__animated animate__fadeInUp" id="about">
@@ -43,7 +45,7 @@ export default function About() {
             <div className="about__buttons">
               <a
                 download=""
-                href="/assets/pdf/Alexa-Cv.pdf"
+                href="../assets/docs/Nicholas_SiawAkwawua_Resume.pdf"
                 className="button button--flex"
               >
                 Download CV<i className="uil uil-download-alt button__icon"></i>

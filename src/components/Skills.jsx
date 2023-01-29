@@ -82,56 +82,56 @@ export default function Skills() {
         {/* {elements} */}
         <ul className="skill__stacks-list">
           <li className="stack">
-            <i class="devicon-html5-plain colored"></i>
+            <i className="devicon-html5-plain colored"></i>
             <p className="skill__name">HTML 5</p>
           </li>
           <li className="stack">
-            <i class="devicon-css3-plain colored"></i>
+            <i className="devicon-css3-plain colored"></i>
             <p className="skill__name">CSS3</p>
 
           </li>
           <li className="stack">
-            <i class="devicon-javascript-plain colored"></i>
+            <i className="devicon-javascript-plain colored"></i>
             <p className="skill__name">JavaScript</p>
 
           </li>
           <li className="stack">
-            <i class="devicon-sass-original colored"></i>
+            <i className="devicon-sass-original colored"></i>
             <p className="skill__name">SASS</p>
 
           </li>
           <li className="stack">
-            <i class="devicon-react-original colored"></i>
+            <i className="devicon-react-original colored"></i>
             <p className="skill__name">React</p>
 
           </li>
           <li className="stack">
-            <i class="devicon-tailwindcss-original-wordmark colored"></i>
+            <i className="devicon-tailwindcss-original-wordmark colored"></i>
             <p className="skill__name">Tailwind CSS</p>
 
           </li>
           <li className="stack">
-            <i class="devicon-gulp-plain colored"></i>
+            <i className="devicon-gulp-plain colored"></i>
             <p className="skill__name">GULP</p>
 
 
           </li>
           <li className="stack">
 
-          <i class="devicon-git-plain-wordmark colored"></i>
+          <i className="devicon-git-plain-wordmark colored"></i>
           <p className="skill__name">git</p>
 
           
           </li>
           <li className="stack">
 
-          <i class="devicon-github-original colored"></i>
+          <i className="devicon-github-original colored"></i>
           <p className="skill__name">GitHub</p>
           
           </li>
           <li className="stack">
 
-          <i class="devicon-npm-original-wordmark colored"></i>
+          <i className="devicon-npm-original-wordmark colored"></i>
           <p className="skill__name">npm</p>
           
           </li>
