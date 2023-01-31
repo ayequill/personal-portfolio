@@ -48,7 +48,7 @@
   bottom: 0;
   left: 0;
   z-index: 100;
-  background-color: hsl(42deg, 60%, 99%);
+  background-color: hsl(250deg, 60%, 99%);
 }
 
 .nav {
@@ -65,12 +65,12 @@
 
 .nav__logo,
 .nav__toggle {
-  color: hsl(42deg, 8%, 15%);
+  color: hsl(250deg, 8%, 15%);
   font-weight: 500;
 }
 
 .nav__logo:hover {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 .nav__toggle {
@@ -79,7 +79,7 @@
 }
 
 .nav__toggle:hover {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 @media screen and (max-width: 767px) {
@@ -88,7 +88,7 @@
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: hsl(42deg, 60%, 99%);
+    background-color: hsl(250deg, 60%, 99%);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
@@ -105,11 +105,11 @@
   flex-direction: column;
   align-items: center;
   font-size: 0.813rem;
-  color: hsl(42deg, 8%, 15%);
+  color: hsl(250deg, 8%, 15%);
   font-weight: 500;
 }
 .nav__link:hover {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 .nav__icon {
@@ -122,10 +122,10 @@
   right: 1.3rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 .nav__close:hover {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 .nav__btns {
@@ -135,12 +135,12 @@
 
 .change-theme {
   font-size: 1.25rem;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
   margin-right: 1rem;
   cursor: pointer;
 }
 .change-theme:hover {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 .show-menu {
@@ -177,15 +177,15 @@
 
 .home__social-icon {
   font-size: 1.25rem;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 .home__social-icon:hover {
-  color: hsl(42deg, 57%, 53%);
+  color: hsl(250deg, 57%, 53%);
 }
 
 .home__blob {
   max-width: 100%;
-  fill: hsl(42deg, 69%, 61%);
+  fill: hsl(250deg, 69%, 61%);
 }
 
 .home__blob-img {
@@ -202,7 +202,7 @@
 
 .home__subtitle {
   font-size: 1.125rem;
-  color: hsl(42deg, 8%, 45%);
+  color: hsl(250deg, 8%, 45%);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
@@ -212,7 +212,7 @@
 }
 
 .home__scroll-button {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
   transition: 0.3s;
 }
 .home__scroll-button:hover {
@@ -225,7 +225,7 @@
 
 .home__scroll-name {
   font-size: 0.813rem;
-  color: hsl(42deg, 8%, 15%);
+  color: hsl(250deg, 8%, 15%);
   font-weight: 500;
   margin-right: 0.25rem;
 }
@@ -314,7 +314,7 @@
   cursor: pointer;
 }
 .qualification__button:hover {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 .qualification__icon {
@@ -343,14 +343,14 @@
 
 .qualification__calender {
   font-size: 0.75rem;
-  color: hsl(42deg, 8%, 65%);
+  color: hsl(250deg, 8%, 65%);
 }
 
 .qualification__rounder {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background: hsl(42deg, 69%, 61%);
+  background: hsl(250deg, 69%, 61%);
   border-radius: 50%;
 }
 
@@ -358,12 +358,12 @@
   display: block;
   width: 1px;
   height: 100%;
-  background-color: hsl(42deg, 69%, 61%);
+  background-color: hsl(250deg, 69%, 61%);
   transform: translate(6px, -7px);
 }
 
 .qualification__active {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 /*========== Colors ==========*/
@@ -405,7 +405,7 @@
 .about__info-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 .about__info-title,
@@ -446,15 +446,15 @@ body {
   position: relative;
   font-family: "Sen", sans-serif;
   font-size: 0.938rem;
-  background-color: hsl(42deg, 60%, 99%);
-  color: hsl(42deg, 8%, 45%);
+  background-color: hsl(250deg, 60%, 99%);
+  color: hsl(250deg, 8%, 45%);
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: hsl(42deg, 8%, 15%);
+  color: hsl(250deg, 8%, 15%);
   font-weight: 600;
 }
 
@@ -492,14 +492,14 @@ img {
 }
 
 .active-link {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 
 .scrollup {
   position: fixed;
   right: 1rem;
   bottom: -20%;
-  background-color: hsl(42deg, 69%, 61%);
+  background-color: hsl(250deg, 69%, 61%);
   opacity: 0.8;
   padding: 0 0.3rem;
   border-radius: 0.4rem;
@@ -507,7 +507,7 @@ img {
   transition: 0.4s;
 }
 .scrollup:hover {
-  background-color: hsl(42deg, 57%, 53%);
+  background-color: hsl(250deg, 57%, 53%);
 }
 
 .scrollup__icon {
@@ -525,12 +525,12 @@ img {
 
 ::-webkit-scrollbar {
   width: 0.6rem;
-  background-color: hsl(42deg, 12%, 90%);
+  background-color: hsl(250deg, 12%, 90%);
   border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(42deg, 12%, 80%);
+  background: hsl(250deg, 12%, 80%);
   border-radius: 0.75rem;
 }
 
@@ -547,14 +547,14 @@ img {
 /* Font size for large devices */
 .button {
   display: inline-block;
-  background-color: hsl(42deg, 69%, 61%);
+  background-color: hsl(250deg, 69%, 61%);
   color: #fff;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: 500;
 }
 .button:hover {
-  background: hsl(42deg, 57%, 53%);
+  background: hsl(250deg, 57%, 53%);
 }
 
 .button__icon {
@@ -577,16 +577,16 @@ img {
 .button--link {
   padding: 0;
   background: transparent;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 .button--link:hover {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
   background: transparent;
 }
 
 .button--white {
   background: #fff;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
 }
 .button--white:hover {
   background: #fff;
@@ -612,7 +612,7 @@ img {
 .services__icon {
   display: block;
   font-size: 1.5rem;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
   margin-bottom: 1rem;
 }
 
@@ -683,12 +683,12 @@ img {
   top: 1rem;
   right: 1rem;
   font-size: 1.5rem;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
   cursor: pointer;
 }
 
 .services__modal-icon {
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
   margin-bottom: 0.25rem;
 }
 
@@ -775,7 +775,7 @@ img {
 }
 
 .project__bg {
-  background-color: hsl(42deg, 69%, 61%);
+  background-color: hsl(250deg, 69%, 61%);
   padding-top: 3rem;
 }
 
@@ -852,7 +852,7 @@ img {
 
 .contact__icon {
   font-size: 2rem;
-  color: hsl(42deg, 69%, 61%);
+  color: hsl(250deg, 69%, 61%);
   margin-right: 0.75rem;
 }
 
@@ -863,24 +863,24 @@ img {
 
 .contact__subtitle {
   font-size: 0.813rem;
-  color: hsl(42deg, 8%, 65%);
+  color: hsl(250deg, 8%, 65%);
 }
 
 .contact__content {
-  background: hsl(42deg, 70%, 96%);
+  background: hsl(250deg, 70%, 96%);
   border-radius: 0.5rem;
   padding: 0.75rem 1rem 0.25rem;
 }
 
 .contact__label {
   font-size: 0.813rem;
-  color: hsl(42deg, 8%, 15%);
+  color: hsl(250deg, 8%, 15%);
 }
 
 .contact__input {
   width: 100%;
-  background-color: hsl(42deg, 70%, 96%);
-  color: hsl(42deg, 8%, 45%);
+  background-color: hsl(250deg, 70%, 96%);
+  color: hsl(250deg, 8%, 45%);
   font-family: "Sen", sans-serif;
   font-size: 0.938rem;
   border: none;
@@ -908,7 +908,7 @@ img {
 }
 
 .footer__bg {
-  background: hsl(42deg, 69%, 61%);
+  background: hsl(250deg, 69%, 61%);
   padding: 2rem 0 3rem;
 }
 
@@ -928,7 +928,7 @@ img {
 }
 
 .footer__link:hover {
-  color: hsl(42deg, 92%, 85%);
+  color: hsl(250deg, 92%, 85%);
 }
 
 .footer__social {
@@ -936,13 +936,13 @@ img {
   margin-right: 1.5rem;
 }
 .footer__social:hover {
-  color: hsl(42deg, 92%, 85%);
+  color: hsl(250deg, 92%, 85%);
 }
 
 .footer__copy {
   font-size: 0.75rem;
   text-align: center;
-  color: hsl(42deg, 8%, 65%);
+  color: hsl(250deg, 8%, 65%);
   margin-top: 3rem;
 }
 
@@ -1112,7 +1112,7 @@ img {
     background: none;
   }
   .project__container {
-    background: hsl(42deg, 69%, 61%);
+    background: hsl(250deg, 69%, 61%);
     border-radius: 1rem;
     padding: 3rem 2.5rem 0;
     -moz-column-gap: 3rem;
@@ -1190,15 +1190,15 @@ img {
   }
 }
 body.dark-theme {
-  background-color: hsl(42deg, 28%, 12%);
-  color: hsl(42deg, 8%, 75%);
+  background-color: hsl(250deg, 28%, 12%);
+  color: hsl(250deg, 8%, 75%);
 }
 body.dark-theme .header,
 body.dark-theme .nav__menu {
-  background: hsl(42deg, 28%, 12%);
+  background: hsl(250deg, 28%, 12%);
 }
 body.dark-theme .skill__name {
-  color: hsl(42deg, 8%, 75%);
+  color: hsl(250deg, 8%, 75%);
 }
 body.dark-theme .nav__logo,
 body.dark-theme .nav__toggle,
@@ -1209,24 +1209,24 @@ body.dark-theme h1,
 body.dark-theme h2,
 body.dark-theme h3,
 body.dark-theme h4 {
-  color: hsl(42deg, 8%, 95%);
+  color: hsl(250deg, 8%, 95%);
 }
 body.dark-theme .services__content, body.dark-theme .portfolio__content {
-  background: hsl(42deg, 29%, 16%);
+  background: hsl(250deg, 29%, 16%);
 }
 body.dark-theme .services__modal-content {
-  background-color: hsl(42deg, 28%, 12%);
+  background-color: hsl(250deg, 28%, 12%);
 }
 body.dark-theme .contact__input {
-  background: hsl(42deg, 29%, 16%);
-  color: hsl(42deg, 8%, 75%);
+  background: hsl(250deg, 29%, 16%);
+  color: hsl(250deg, 8%, 75%);
 }
 body.dark-theme .contact__content {
-  background: hsl(42deg, 29%, 16%);
+  background: hsl(250deg, 29%, 16%);
 }
 body.dark-theme .footer__bg {
-  background: hsl(42deg, 30%, 8%);
+  background: hsl(250deg, 30%, 8%);
 }
 body.dark-theme .scroll-header {
-  box-shadow: 0 -1px 8px rgba(224, 183, 87, 0.4);
+  box-shadow: 0 -1px 8px rgba(110, 87, 224, 0.4);
 }/*# sourceMappingURL=App.css.map */
