@@ -28,6 +28,7 @@ const portfolioElements = portfolio.map((element, index) => {
         <div className="portfolio__buttons">
           <a
             href={element.demoUrl}
+            target="_blank"
             rel="noreferrer"
             className="button button--flex button--small portfolio__button"
           >
@@ -36,6 +37,7 @@ const portfolioElements = portfolio.map((element, index) => {
           </a>
           <a
             href={element.repoUrl}
+            target="_blank"
             rel="noreferrer"
             className="button button--flex button--small portfolio__button"
           >
