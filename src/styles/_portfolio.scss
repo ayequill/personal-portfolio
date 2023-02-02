@@ -52,3 +52,16 @@
   display: flex;
   gap: 1em;
 }
+
+.portfolio__tags-container{
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: $mb-1;
+  .portfolio__tags{
+    padding: 0.5em;
+    background-color: $body-color;
+    border-radius: 0.5em;
+    font-style: italic;
+  }
+}
+

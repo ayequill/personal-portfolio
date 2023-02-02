@@ -49,6 +49,9 @@ body.dark-theme {
   }
   .scroll-header{
   box-shadow: 0 -1px 8px rgba($first-color, $alpha: 0.40);
+  }
+  .portfolio__tags{
+    background-color: $dark-body-color;
 
   }
 }

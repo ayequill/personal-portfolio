@@ -19,7 +19,6 @@ export default function Services() {
   function closeModal() {
     setViewMore((prev) => ({ ...viewMore, view1: false, view2: false }));
   }
-  console.log(viewMore);
   return (
     <>
       <section className="services section" id="services">

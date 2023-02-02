@@ -2,11 +2,13 @@ import { useState, useEffect } from "react";
 export default function Navbar() {
   
   const [showNav, setShowNav] = useState(false);
-  const [darkMode, setDarkMode] = useState(localStorage.getItem('state') ||false);
+  const [darkMode, setDarkMode] = useState(localStorage.getItem('state'));
   
 useEffect(()=>{
  localStorage.setItem('state', darkMode)
 },[darkMode])
+
+
 
 
   // const styleOffset0 = { stopOpacity: "1", stopColor: "rgb(3, 159, 179)" };
@@ -29,7 +31,6 @@ useEffect(()=>{
 
   }, [darkMode]);
 
-  console.log(darkMode)
 
   function handleClick() {
     setShowNav((prevState) => !prevState);

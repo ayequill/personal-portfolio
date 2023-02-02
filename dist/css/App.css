@@ -759,6 +759,18 @@ img {
   gap: 1em;
 }
 
+.portfolio__tags-container {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 1rem;
+}
+.portfolio__tags-container .portfolio__tags {
+  padding: 0.5em;
+  background-color: hsl(250deg, 60%, 99%);
+  border-radius: 0.5em;
+  font-style: italic;
+}
+
 /*========== Colors ==========*/
 /* Change favorite color */
 /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
@@ -1229,4 +1241,7 @@ body.dark-theme .footer__bg {
 }
 body.dark-theme .scroll-header {
   box-shadow: 0 -1px 8px rgba(110, 87, 224, 0.4);
+}
+body.dark-theme .portfolio__tags {
+  background-color: hsl(250deg, 28%, 12%);
 }/*# sourceMappingURL=App.css.map */
