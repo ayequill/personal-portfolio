@@ -1,109 +1,113 @@
 import { useState, useEffect } from "react";
+import * as HeaderStyles from "./styles/Header.styled";
+
 export default function Navbar() {
-  
   const [showNav, setShowNav] = useState(false);
-  const [darkMode, setDarkMode] = useState(localStorage.getItem('state'));
-  
-useEffect(()=>{
- localStorage.setItem('state', darkMode)
-},[darkMode])
+  const [darkMode, setDarkMode] = useState(localStorage.getItem("state"));
 
-
-
+  useEffect(() => {
+    localStorage.setItem("state", darkMode);
+  }, [darkMode]);
 
   // const styleOffset0 = { stopOpacity: "1", stopColor: "rgb(3, 159, 179)" };
   // const styleOffset1 = { stopOpacity: "1", stopColor: "rgb(110, 87, 224)" };
 
   function setDarkTheme() {
     setDarkMode((prev) => !prev);
-
   }
-
 
   useEffect(() => {
-    if (darkMode){
-       document.body.classList.add('dark-theme')
-
+    if (darkMode) {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
     }
-    else { 
-       document.body.classList.remove('dark-theme')
-  }
-
   }, [darkMode]);
-
 
   function handleClick() {
     setShowNav((prevState) => !prevState);
   }
 
   return (
-    <header className="header" id="header">
-      <nav className="nav container">
-        <a href="#home" className="nav__logo">
+    // <header className="header" id="header">
+    <HeaderStyles.HeaderStyle darkMode={darkMode} id="header">
+      {/* <nav className="nav container"> */}
+      <HeaderStyles.NavStyle className="container">
+        {/* <a href="#home" className="nav__logo">
           siaw.dev
-        </a>
+        </a> */}
+        <HeaderStyles.NavLogo href="#home"> siaw.dev</HeaderStyles.NavLogo>
 
-        <div
+        {/* <div
           className={`nav__menu ${showNav ? "show-menu" : ""}`}
           id="nav-menu"
-        >
-          <ul className="nav__list grid">
-            <li className="nav__item">
-              <a href="#home" className="nav__link active-link">
-                <i className="uil uil-estate nav__icon"></i> Home
-              </a>
-            </li>
+        > */}
+        <HeaderStyles.NavMenu
+          showNav={showNav}
+          style={showNav ? {bottom: '0'} : {}}
+         >
+          <HeaderStyles.NavList>
+            <HeaderStyles.NavItem>
+              <HeaderStyles.NavLink className="active-link">
+                <HeaderStyles.NavIcon className="uil uil-estate" />
+                Home
+              </HeaderStyles.NavLink>
+            </HeaderStyles.NavItem>
 
-            <li className="nav__item">
-              <a href="#about" className="nav__link">
-                <i className="uil uil-user nav__icon"></i> About
-              </a>
-            </li>
+            <HeaderStyles.NavItem>
+              <HeaderStyles.NavLink href="#about">
+                <HeaderStyles.NavIcon className="uil uil-user" />
+                About
+              </HeaderStyles.NavLink>
+            </HeaderStyles.NavItem>
 
-            <li className="nav__item">
-              <a href="#skills" className="nav__link">
-                <i className="uil uil-file-alt nav__icon"></i> Skills
-              </a>
-            </li>
+            <HeaderStyles.NavItem>
+              <HeaderStyles.NavLink href="#skills">
+                <HeaderStyles.NavIcon className="uil uil-file-alt" />
+                Skills
+              </HeaderStyles.NavLink>
+            </HeaderStyles.NavItem>
 
-            <li className="nav__item">
-              <a href="#services" className="nav__link">
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
-              </a>
-            </li>
+            <HeaderStyles.NavItem>
+              <HeaderStyles.NavLink href="services">
+                <HeaderStyles.NavIcon className="uil uil-briefcase-alt" />
+                Services
+              </HeaderStyles.NavLink>
+            </HeaderStyles.NavItem>
 
-            <li className="nav__item">
-              <a href="#portfolio" className="nav__link">
-                <i className="uil uil-scenery nav__icon"></i> Portfolio
-              </a>
-            </li>
+            <HeaderStyles.NavItem>
+              <HeaderStyles.NavLink href="portfolio">
+                <HeaderStyles.NavIcon className="uil uil-scenery" />
+                Portfolio
+              </HeaderStyles.NavLink>
+            </HeaderStyles.NavItem>
 
-            <li className="nav__item">
-              <a href="#contact" className="nav__link">
-                <i className="uil uil-message nav__icon"></i>Contactme
-              </a>
-            </li>
-          </ul>
-
-          <i
-            className="uil uil-times nav__close"
+            <HeaderStyles.NavItem>
+              <HeaderStyles.NavLink href="contact">
+                <HeaderStyles.NavIcon className="uil uil-estate" />
+                ContactMe
+              </HeaderStyles.NavLink>
+            </HeaderStyles.NavItem>
+          </HeaderStyles.NavList>
+          <HeaderStyles.NavClose
+            className="uil uil-times"
             id="nav-close"
             onClick={handleClick}
-          ></i>
-        </div>
+          />
+        </HeaderStyles.NavMenu>
 
-        <div className="nav__btns">
+        <HeaderStyles.NavButtons>
           {/* Theme change btn */}
-          <i
+          <HeaderStyles.ColorMode
             onClick={setDarkTheme}
-            className={`uil ${darkMode === true ? "uil-moon" : "uil-sun"} change-theme`}
+            className={`uil ${darkMode === true ? "uil-moon" : "uil-sun"}`}
             id="theme-button"
-          ></i>
-          <div className="nav__toggle" id="nav-toggle" onClick={handleClick}>
+          ></HeaderStyles.ColorMode>
+          <HeaderStyles.NavToggle id="nav-toggle" onClick={handleClick}>
             <i className="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
+          </HeaderStyles.NavToggle>
+        </HeaderStyles.NavButtons>
+      </HeaderStyles.NavStyle>
+    </HeaderStyles.HeaderStyle>
   );
 }
