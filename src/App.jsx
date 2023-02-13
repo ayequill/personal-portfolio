@@ -9,8 +9,11 @@ import ProjectInMind from "./components/ProjectInMind";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import { activeLink } from "./hooks/activeLink";
-// import "./styles/App.scss";
+import "./styles/App.scss";
 import { useEffect } from "react";
+import { ThemeProvider } from "styled-components";
+import { Theme } from "./components/styles/Theme.styled";
+import { Global } from "./components/styles/Global";
 
 function App() {
   useEffect(() => activeLink, []);
@@ -33,9 +36,12 @@ function App() {
     window.addEventListener("scroll", scrollUp);
   });
 
+
   return (
+    <ThemeProvider theme={Theme}>
+      <Global />
     <div className="App">
-      <Navbar />
+      <Navbar activeLink={activeLink} />
       <Home />
       <About />
       <Skills />
@@ -49,6 +55,7 @@ function App() {
         <i className="uil uil-arrow-up scrollup__icon"></i>
       </a>
     </div>
+    </ThemeProvider>
   );
 }
 

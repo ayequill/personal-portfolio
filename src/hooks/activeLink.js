@@ -10,17 +10,19 @@ export function activeLink() {
       const sectionId = current.getAttribute("id");
 
       if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-        document
-          .querySelector(".nav__menu a[href*=" + sectionId + "]")
-          .classList.add("active-link");
+        // document
+        //   .querySelector(".nav__menu a[href*=" + sectionId + "]")
+        //   .classList.add("active-link");
+        return true
       } else {
-        document
-          .querySelector(".nav__menu a[href*=" + sectionId + "]")
-          .classList.remove("active-link");
+        // document
+        //   .querySelector(".nav__menu a[href*=" + sectionId + "]")
+        //   .classList.remove("active-link");
+        return false
       }
     });
   }
-  window.addEventListener("scroll", scrollActive);
+  // window.addEventListener("scroll", scrollActive);
 }
 
   // // show nav box shadow

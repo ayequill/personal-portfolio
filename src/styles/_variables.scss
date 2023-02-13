@@ -62,6 +62,7 @@ $z-modal: 1000;
   $smaller-font-size: 0.813rem;
 }
 .dark-theme{
+  $hue-color: 250; 
 $first-color-second: hsl($hue-color, 30%, 8%);
 $title-color: hsl($hue-color, 8%, 95%);
 $text-color: hsl($hue-color, 8%, 75%);
