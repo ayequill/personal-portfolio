@@ -80,6 +80,8 @@
   }
   .section {
     padding: 6rem 0 2rem;
+  margin-bottom: 3rem;
+
   }
   .section__subtitle {
     margin-bottom: 4rem;
@@ -204,7 +206,9 @@
   .section__title{
     font-size: $big-font-size;
   }
-
+  .section{
+  margin-bottom: 3rem;
+  }
   .footer__container,
   .section {
     padding: 0;
