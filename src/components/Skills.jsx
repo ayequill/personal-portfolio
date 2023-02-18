@@ -74,66 +74,56 @@ export default function Skills() {
 
   return (
     <section className="skills__section" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My Tech Stack</span>
+      <h2 data-aos="slide-up" className="section__title">
+        Skills
+      </h2>
+      <span data-aos="slide-up" className="section__subtitle">
+        My Tech Stack
+      </span>
 
       <div className="skills__container container grid">
         {/* Skill elements go here */}
         {/* {elements} */}
         <ul className="skill__stacks-list">
-          <li className="stack">
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
             <i className="devicon-html5-plain colored"></i>
             <p className="skill__name">HTML 5</p>
           </li>
-          <li className="stack">
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
             <i className="devicon-css3-plain colored"></i>
             <p className="skill__name">CSS3</p>
-
           </li>
-          <li className="stack">
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
             <i className="devicon-javascript-plain colored"></i>
             <p className="skill__name">JavaScript</p>
-
           </li>
-          <li className="stack">
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
             <i className="devicon-sass-original colored"></i>
             <p className="skill__name">SASS</p>
-
           </li>
-          <li className="stack">
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
             <i className="devicon-react-original colored"></i>
             <p className="skill__name">React</p>
-
           </li>
-          <li className="stack">
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
             <i className="devicon-tailwindcss-original-wordmark colored"></i>
             <p className="skill__name">Tailwind CSS</p>
-
           </li>
-          <li className="stack">
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
             <i className="devicon-gulp-plain colored"></i>
             <p className="skill__name">GULP</p>
-
-
           </li>
-          <li className="stack">
-
-          <i className="devicon-git-plain-wordmark colored"></i>
-          <p className="skill__name">git</p>
-
-          
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
+            <i className="devicon-git-plain-wordmark colored"></i>
+            <p className="skill__name">git</p>
           </li>
-          <li className="stack">
-
-          <i className="devicon-github-original colored"></i>
-          <p className="skill__name">GitHub</p>
-          
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
+            <i className="devicon-github-original colored"></i>
+            <p className="skill__name">GitHub</p>
           </li>
-          <li className="stack">
-
-          <i className="devicon-npm-original-wordmark colored"></i>
-          <p className="skill__name">npm</p>
-          
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
+            <i className="devicon-npm-original-wordmark colored"></i>
+            <p className="skill__name">npm</p>
           </li>
         </ul>
       </div>

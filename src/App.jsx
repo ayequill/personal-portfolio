@@ -9,8 +9,12 @@ import ProjectInMind from "./components/ProjectInMind";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import { activeLink } from "./hooks/activeLink";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // import "./styles/App.scss";
 import { useEffect } from "react";
+
+AOS.init();
 
 function App() {
   useEffect(() => activeLink, []);

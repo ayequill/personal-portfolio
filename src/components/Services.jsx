@@ -22,12 +22,12 @@ export default function Services() {
   return (
     <>
       <section className="services section" id="services">
-        <h2 className="section__title">Services</h2>
-        <span className="section__subtitle">What i offer</span>
+        <h2 data-aos='slide-up' data-aos-duration='800'  className="section__title">Services</h2>
+        <span data-aos='slide-up' data-aos-duration='800'  className="section__subtitle">What i offer</span>
 
         <div className="services__container container grid">
-          {/* <!--==================== SERVICES 1 ====================--> */}
-          <div className="services__content">
+   
+          <div data-aos-mirror='true' data-aos='flip-up' data-aos-duration='800'  className="services__content">
             <div>
               <i className="uil uil-web-grid services__icon"></i>
               <h3 className="services__title">
@@ -79,7 +79,7 @@ export default function Services() {
 
           {/* <!--==================== SERVICES 2 ====================--> */}
 
-          <div className="services__content">
+          <div data-aos-mirror='true' data-aos='flip-up' data-aos-duration='800'  className="services__content">
             <div>
               <i className="uil uil-arrow services__icon"></i>
               <h3 className="services__title">

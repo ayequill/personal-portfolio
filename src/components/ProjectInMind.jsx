@@ -20,7 +20,7 @@ export default function ProjectInMind() {
 
   return (
     <>
-      <section className="project">
+      <section data-aos='flip-up' data-aos-duration='1000' className="project">
         <div className="project__bg">
           <div className="project__container container grid">
             <div className="project__data">

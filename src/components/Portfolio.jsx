@@ -3,7 +3,7 @@ import { portfolio } from "../portfolioData";
 const portfolioElements = portfolio.map((element, index) => {
   return (
     <div key={index} className="portfolio__content grid">
-      <div className="portfolio__images">
+      <div data-aos='fade-up' data-aos-mirror='true'  className="portfolio__images">
         <img
           src={element.desktopImgSrc}
           alt="movie collection site"
@@ -15,7 +15,7 @@ const portfolioElements = portfolio.map((element, index) => {
           className="portfolio__img portfolio__mobile"
         />
       </div>
-      <div className="portfolio__data">
+      <div data-aos='slide-up' data-aos-mirror='true'  className="portfolio__data">
         <h3 className="portfolio__title">{element.title}</h3>
         <p className="portfolio__description">{element.desc}</p>
         <div className="portfolio__tags-container">
@@ -54,8 +54,8 @@ export default function Portfolio() {
   return (
     <>
       <section className="portfolio section" id="portfolio">
-        <h2 className="section__title">Portfolio</h2>
-        <span className="section__subtitle">Most Recent works</span>
+        <h2 data-aos='slide-up' data-aos-mirror='true' data-aos-duration='1000' className="section__title">Portfolio</h2>
+        <span data-aos='slide-up' data-aos-mirror='true' data-aos-duration='1000' className="section__subtitle">Most Recent works</span>
 
         <div className="portfolio__container container grid">
           {portfolioElements}
