@@ -10,6 +10,9 @@
 
 # production
 /build
+/dist/css/App.css
+/dist/css/App.css.map
+
 
 # misc
 .DS_Store
