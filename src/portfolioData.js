@@ -44,8 +44,8 @@ export const portfolio = [
   {
     title: "Tenzies!",
     desc: "A Tenzies game.",
-    demoUrl: "https://ayequill-color-gen.vercel.app",
-    repoUrl: "https://github.com/ayequill/color-generator",
+    demoUrl: "https://tenzies-game-three-nu.vercel.app/",
+    repoUrl: "https://github.com/ayequill/tenzies-game",
     desktopImgSrc: tenziesGameDesktop,
     mobileImgSrc: tenziesMobile,
     tags: ["html", "scss", "react-js"],

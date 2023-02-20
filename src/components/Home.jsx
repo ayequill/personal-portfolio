@@ -61,8 +61,8 @@ export default function Home() {
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
-        <div className="home__content grid">
-          <div className="home__social">
+        <div data-aos='fade' data-aos-duration='2000' data-aos-delay='1200' className="home__content grid">
+          <div   className="home__social">
             <a
               href="https://www.linkedin.com/in/nicholas-siaw-8824a6175/"
               rel="noreferrer"
@@ -89,7 +89,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="home__img animate__animated animate__fadeInRight">
+          <div className="home__img">
             <svg
               className="home__blob"
               id="morphing"
@@ -129,7 +129,7 @@ export default function Home() {
             </svg>
           </div>
 
-          <div className="home__data animate__animated animate__fadeInLeft">
+          <div className="home__data">
             {hi}
             <h3 className="home__subtitle">Frontend Developer</h3>
             <p className="home__description">
