@@ -12,7 +12,12 @@ export default function Qualification() {
   }
 
   const eduElements = expData.education.map((element) => (
-    <div data-aos='slide-right' data-aos-duration='800'  key={element.id} className="qualification__content">
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration="800"
+      key={element.id}
+      className="qualification__content"
+    >
       <div className="qualification__data">
         {element.shift && <div></div>}
 
@@ -42,7 +47,12 @@ export default function Qualification() {
   ));
 
   const workElements = expData.work.map((element) => (
-    <div data-aos='slide-left' data-aos-duration='800' key={element.id} className="qualification__content">
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration="800"
+      key={element.id}
+      className="qualification__content"
+    >
       <div className="qualification__data">
         {element.shift && <div></div>}
 
@@ -73,8 +83,20 @@ export default function Qualification() {
 
   return (
     <section className="qualification section">
-      <h2 data-aos='slide-up' data-aos-duration='800' className="section__title">Qualification</h2>
-      <span  data-aos='slide-up' data-aos-duration='800'className="section__subtitle">My personal journey</span>
+      <h2
+        data-aos="slide-up"
+        data-aos-duration="800"
+        className="section__title"
+      >
+        Qualification
+      </h2>
+      <span
+        data-aos="slide-up"
+        data-aos-duration="800"
+        className="section__subtitle"
+      >
+        My personal journey
+      </span>
       <div className="qualification__container container">
         <div className="qualification__tabs">
           <div

@@ -8,6 +8,10 @@ import colorGenDesktop from "./assets/projects/color-gen-desktop.webp";
 import colorGenMobile from "./assets/projects/color-gen-mobile.webp";
 import rpgGameMobile from "./assets/projects/rpg-game-mobile.webp";
 import rpgGameDesktop from "./assets/projects/rpg-game-desktop.webp";
+import tenziesGameDesktop from "./assets/projects/tenzies-game-desktop.webp"
+import tenziesMobile from "./assets/projects/tenzies-game-mobile.webp"
+import markdownDesktop from "./assets/projects/markdown-editor-desktop.webp"
+import markdownMobile from "./assets/projects/markdown-editor-mobile.webp"
 
 export const portfolio = [
   {
@@ -18,6 +22,33 @@ export const portfolio = [
     desktopImgSrc: moviewWatch,
     mobileImgSrc: movieMob,
     tags: ["html", "scss", "vanilla-js", "api"],
+  },
+  {
+    title: "Color Scheme Generator",
+    desc: "A Color Scheme WepApp.",
+    demoUrl: "https://ayequill-color-gen.vercel.app",
+    repoUrl: "https://github.com/ayequill/color-generator",
+    desktopImgSrc: colorGenDesktop,
+    mobileImgSrc: colorGenMobile,
+    tags: ["html", "scss", "vanilla-js", "api"],
+  },
+  {
+    title: "Markdown Notes App",
+    desc: "A markdown notes app with preview. You can write HTML directly and preview.",
+    demoUrl: "https://markdown-editor-notes-app.vercel.app/",
+    repoUrl: "https://github.com/ayequill/markdown-editor-notes-app",
+    desktopImgSrc: markdownDesktop,
+    mobileImgSrc: markdownMobile,
+    tags: ["html", "scss", "vanilla-js", "api"],
+  },
+  {
+    title: "Tenzies!",
+    desc: "A Tenzies game.",
+    demoUrl: "https://ayequill-color-gen.vercel.app",
+    repoUrl: "https://github.com/ayequill/color-generator",
+    desktopImgSrc: tenziesGameDesktop,
+    mobileImgSrc: tenziesMobile,
+    tags: ["html", "scss", "react-js"],
   },
   {
     title: "Meme Generator",
@@ -44,15 +75,6 @@ export const portfolio = [
     repoUrl: "https://github.com/ayequill/rpg-game",
     desktopImgSrc: rpgGameDesktop,
     mobileImgSrc: rpgGameMobile,
-    tags: ["html", "scss", "vanilla-js", "api"],
-  },
-  {
-    title: "Color Scheme Generator",
-    desc: "A Color Scheme WepApp.",
-    demoUrl: "https://ayequill-color-gen.vercel.app",
-    repoUrl: "https://github.com/ayequill/color-generator",
-    desktopImgSrc: colorGenDesktop,
-    mobileImgSrc: colorGenMobile,
     tags: ["html", "scss", "vanilla-js", "api"],
   },
 ];
