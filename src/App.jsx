@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Qualification from "./components/Qualification";
 import Skills from "./components/Skills";
-import Services from "./components/Services";
+// import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import ProjectInMind from "./components/ProjectInMind";
 import ContactMe from "./components/ContactMe";
