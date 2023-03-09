@@ -28,6 +28,10 @@
   row-gap: 0.4em;
 }
 
+.stack img{
+  // display: none;
+  width: 30%;
+}
 .stack i {
   font-size: 4.5rem;
   color: rgba($color: #000000, $alpha: 0.9);
@@ -36,7 +40,6 @@
 .skill__name {
   font-weight: bolder;
   color: inherit;
-
 }
 
 // .skills__icon,

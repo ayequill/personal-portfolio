@@ -118,7 +118,20 @@ export default function Skills() {
             <p className="skill__name">git</p>
           </li>
           <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
-            <i className="devicon-github-original colored"></i>
+          {/* <i class="devicon-linux-plain"></i> */}
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" />
+            <p className="skill__name">Linux</p>
+          </li>
+
+          
+          <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
+            {/* <i className="devicon-github-original colored"></i> */}
+
+           
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt=""/>
+          
+          
             <p className="skill__name">GitHub</p>
           </li>
           <li data-aos-mirror='true' data-aos="zoom-in-up" data-aos-duration="1500" className="stack">
