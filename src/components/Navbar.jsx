@@ -1,36 +1,23 @@
 import { useState, useEffect } from "react";
 export default function Navbar() {
-  
   const [showNav, setShowNav] = useState(false);
-  const [darkMode, setDarkMode] = useState(localStorage.getItem('state'));
-  
-useEffect(()=>{
- localStorage.setItem('state', darkMode)
-},[darkMode])
+  const [darkMode, setDarkMode] = useState(localStorage.getItem("state"));
 
-
-
-
-  // const styleOffset0 = { stopOpacity: "1", stopColor: "rgb(3, 159, 179)" };
-  // const styleOffset1 = { stopOpacity: "1", stopColor: "rgb(110, 87, 224)" };
+  useEffect(() => {
+    localStorage.setItem("state", darkMode);
+  }, [darkMode]);
 
   function setDarkTheme() {
     setDarkMode((prev) => !prev);
-
   }
-
 
   useEffect(() => {
-    if (darkMode){
-       document.body.classList.add('dark-theme')
-
+    if (darkMode) {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
     }
-    else { 
-       document.body.classList.remove('dark-theme')
-  }
-
   }, [darkMode]);
-
 
   function handleClick() {
     setShowNav((prevState) => !prevState);
@@ -96,7 +83,9 @@ useEffect(()=>{
           {/* Theme change btn */}
           <i
             onClick={setDarkTheme}
-            className={`uil ${darkMode === true ? "uil-moon" : "uil-sun"} change-theme`}
+            className={`uil ${
+              darkMode === true ? "uil-moon" : "uil-sun"
+            } change-theme`}
             id="theme-button"
           ></i>
           <div className="nav__toggle" id="nav-toggle" onClick={handleClick}>
